@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poiret One', cursive;	
+}
+
+.appcontainer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background: none;
+}
+
+.vid-thumb{
+	width: 35%;
+	height: 500px;
+}
+
+.vid-box{
+	width: 30%;
+	height: 500px;
+}
+
+.vid-box2{
+	width: 30%;
+	height: 500px;
+}
+
+.control-divs{
+	text-align: center;
+	width: 30%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.control-divs>div{
+	width: 100%;
+}
+
+.control-divs h1{
+	display: block;
+	margin-bottom: 30px;
+}
+
+form{
+	width: 100%;
+}
+
+form input{
+	height: 40px;
+	width: 90%;
+	padding-left: 10px;
+}
+
+.listing button{
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+	background: transparent;
+	border: none;
+	border: 1px solid #34495e;
+	cursor: pointer;
+}
+
+.listing button:hover{
+	background: black;
+	color: white;
+}
+
+.listing{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+	width: 100%;
+	font-family: 'Poiret One', cursive;	
+}
+
+.listing i{
+	width: 20px;
+}
+
+.ptext{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.ptext>button{
+	font-size: .8em;
+	font-family: 'Poiret One', cursive;	
+	outline: none;
+	background: transparent;
+	border: none;
+	border: 1px solid #34495e;
+	cursor: pointer;
+	margin: 0;
+	height: 40px;
+	width: 33%;
+}
+
+.ptext button:hover{
+	background: black;
+	color: white;
+}
+
+.main-centered{
+	padding: 30px;
+	background: whitesmoke;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
